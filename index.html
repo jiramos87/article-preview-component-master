@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <title>Frontend Mentor | Article preview component</title>
+ 
+</head>
+<body class="body">
+  <div class="card">
+    <div class="drawers"></div>
+    <div class="content">
+      <div class="text-content">
+        <h1>Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home</h1>
+        <p>Ever been in a room and felt like something was missing? Perhaps 
+          it felt slightly bare and uninviting. I’ve got some simple tips 
+          to help you make any room feel complete.</p>
+      </div>
+      <div class="profile" id="profile">
+        <div class="avatar"></div>
+        <div class="text-info">
+          <div class="name">Michelle Appleton</div>
+          <div class="post-date">28 Jun 2020</div>
+        </div>
+        <div class="share-button" id="share-icon-initial" onclick="showShare(event)"></div>
+        <div class="share-button-on d-none" id="share-icon" onclick="hideShare(event)"></div>
+      </div>
+      <div class="share-content" id="share-icons">
+        <div class="share-content-icons">
+          share
+          <img src="images/icon-facebook.svg" class="social"/>
+          <img src="images/icon-twitter.svg" class="social"/>
+          <img src="images/icon-pinterest.svg" class="social"/>
+        </div>
+        <div class="share-content-icon" onclick="hideShare(event)">
+          <img src="images/icon-share-white.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="scripts/main.js  "></script>
+  
+</body>
+</html>
